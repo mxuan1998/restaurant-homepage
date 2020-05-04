@@ -2,7 +2,7 @@ import homepage from "./homepage";
 import menu from "./menu";
 import contact from "./contact";
 
-const navButton = document.querySelectorAll(".nav-item");
+const navButtons = document.querySelectorAll(".nav-item");
 const homeButton = document.querySelector("#home-button");
 const menuButton = document.querySelector("#menu-button");
 const contactButton = document.querySelector("#contact-button");
@@ -13,7 +13,7 @@ const selectNavButton = (clickedButton) => {
         if (button == clickedButton) {
             button.classList.add("nav-item-selected");
         } else {
-            button. classList.remove("nav-item-selected");
+            button.classList.remove("nav-item-selected");
         }
     })
 }
@@ -33,7 +33,7 @@ contactButton.addEventListener("click", () => {
     contact();
 });
 
-contactDiv. addEventListener("animationend", () => {
+contentDiv.addEventListener("animationend", () => {
     this.classList.remove("down-end-active");
 })
 
