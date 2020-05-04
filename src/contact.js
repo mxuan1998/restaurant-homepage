@@ -34,7 +34,7 @@ const createTitle = (text) => {
     return title;
 }
 
-const createContactDisplay = () => {
+const contact = () => {
     const title = createTitle("Contact us");
     const infoTable = createTable();
 

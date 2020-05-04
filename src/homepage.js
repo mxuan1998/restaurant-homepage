@@ -12,7 +12,7 @@ const createQuote = (text) => {
     return quote;
 }
 
-const createHomeDisplay = () => {
+const homepage = () => {
     const description = createDescription("Welcome to Xuan's restaurant<br>the best restaurant in the world!");
     const quote = createQuote('"Amazing experience at this restaurant!" - J');
     homeContainer.innerHTML = "";

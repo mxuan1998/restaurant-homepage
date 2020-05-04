@@ -31,7 +31,7 @@ const fillMenuItems = menuTable => {
 
 const createMenuHeadings = (menuTable) => {
     const tableRow = document.createElement("tr");
-    const tableHeadingMenu = document,createElement("th");
+    const tableHeadingMenu = document.createElement("th");
     const tableHeadingIngredients = document.createElement("th");
     
     tableHeadingMenu.textContent = "Menu";
@@ -57,7 +57,7 @@ const createMenuImg = () => {
     return img;
 }
 
-const createMenuDisplay = () => {
+const menu = () => {
     const container = document.createElement("div");
     container.classList.add("menu-container");
 

@@ -1,6 +1,6 @@
 import homepage from "./homepage";
 import menu from "./menu";
-import contact from "./cnotact";
+import contact from "./contact";
 
 const navButton = document.querySelectorAll(".nav-item");
 const homeButton = document.querySelector("#home-button");
