@@ -2,7 +2,7 @@ const contactContainer = document.querySelector("#content");
 
 const createTableData = (data) => {
     const tableData = document.createElement("td");
-    tableData.innerHTML = date;
+    tableData.innerHTML = data;
     return tableData;
 }
 
